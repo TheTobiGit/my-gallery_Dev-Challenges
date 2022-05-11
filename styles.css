@@ -95,6 +95,7 @@ a {
 
 .album img {
   border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25)
 }
 
 .row1 {
@@ -157,4 +158,155 @@ a {
   font-size: 14px;
   line-height: 17px;
   color: #B9BDCF;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+  body {
+    margin: 0;
+  }
+
+  .profile {
+    margin-top: 2vh;
+  }
+
+  .row1 {
+    display: grid;
+  }
+
+  .row2 {
+    display: grid;
+  }
+
+  #photo5-6 {
+    display: grid;
+  }
+
+  #photo1 img {
+    width: 60%;
+    height: auto;
+    margin-left: 66px;
+    margin-bottom: 20px;
+  }
+
+  #photo2 img {
+    width: 94%;
+    height: auto;
+    margin-left: 17px;
+  }
+
+  #photo3 img {
+    width: 94%;
+    height: auto;
+    margin-left: 17px;
+    margin-bottom: 20px;
+  }
+
+  #photo4 img {
+    width: 50%;
+    height: auto;
+    margin-left: 85px;
+  }
+
+  #photo5-6 img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+
+  .stats .card {
+    width: 70px;
+    height: 50px;
+    margin: 10px 10px;
+  }
+
+  .card .value {
+    font-size: 11px;
+  }
+
+  .card .ref {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 755px) {
+
+  body {
+    margin: 5vh 17vh;
+  }
+
+  .profile-img img {
+    width: 40%;
+    height: auto;
+  }
+
+  .stats .card {
+    width: 80px;
+    height: 40px;
+    margin: 10px 10px;
+  }
+
+  .card .value {
+    font-size: 11px;
+  }
+
+  .card .ref {
+    font-size: 11px;
+  }
+
+  #photo1 img {
+    width: 130px;
+    height: 100px;
+  }
+
+  #photo2 img {
+    width: 220px;
+    height: 100px;
+  }
+
+  #photo3 img {
+    width: 220px;
+    height: 100px;
+  }
+
+  #photo4 img {
+    width: 130px;
+    height: 220px;
+  }
+
+  #photo5-6 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer p {
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (min-width: 756px) and (max-width: 1023px) {
+  #photo1 img {
+    width: 230px;
+    height: 200px;
+  }
+
+  #photo2 img {
+    width: 420px;
+    height: 200px;
+  }
+
+  #photo3 img {
+    width: 420px;
+    height: 200px;
+  }
+
+  #photo4 img {
+    width: 230px;
+    height: 420px;
+  }
+
+  #photo5-6 img {
+    width: 200px;
+    height: 200px;
+  }
 }
