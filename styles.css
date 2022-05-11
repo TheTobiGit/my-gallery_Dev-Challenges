@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+/* font-family: 'Montserrat',sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* border: 1px solid red; */
+}
+
+body {
+  margin: 5vh 23vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img img {
+  border-radius: 10px;
+  width: 20%;
+  height: auto;
+}
+
+.user {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user .name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4E5150;
+  padding-bottom: 10px;
+}
+
+.user .address {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #A9A9A9;
+}
+
+.profile .stats {
+  display: flex;
+}
+
+.stats .card {
+  width: 100px;
+  height: 70px;
+  background: #E5E5E5;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 20px;
+}
+
+.card .value {
+  font-weight: 600;
+}
+
+.card .ref {
+  font-weight: 600;
+  color: #BDBDBD;
+}
+
+
+.album {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.album img {
+  border-radius: 10px;
+}
+
+.row1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row2 {
+  display: flex;
+}
+
+.row2-col {
+  display: flex;
+  flex-direction: column;
+}
+
+#photo4-5 {
+  display: flex;
+}
+
+
+#photo1 img {
+  width: 330px;
+  height: 300px;
+  margin-right: 30px;
+}
+
+#photo2 img {
+  width: 620px;
+  height: 300px;
+}
+
+#photo3 img {
+  width: 620px;
+  height: 300px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+#photo4 img {
+  width: 330px;
+  height: 620px;
+}
+
+#photo5-6 img {
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.footer p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #B9BDCF;
+}
